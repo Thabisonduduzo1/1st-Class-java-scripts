@@ -1,0 +1,18 @@
+p{color: white; background-color: navy; font-size: 100px;}
+
+.container{display: grid;
+grid-template-columns: 0.5fr 0.5fr;
+grid-template-rows: 1fr;
+grid-template-areas: "A" "B";
+height: 100vh}
+
+.A{ grid-area:"A";background-color: red; display: flex; justify-content: center; align-items: center;color: white;}
+.B{grid-area: "B"; background-color: blue;display: flex; justify-content: center; align-items: center; color: white;}
+
+
+@media only screen and ( max-width : 500px) { .container{ display: flex; flex-direction: column;}
+.A{height: 300px;}
+.B{height: 300px }
+p{font-size: larger;}
+    
+}
