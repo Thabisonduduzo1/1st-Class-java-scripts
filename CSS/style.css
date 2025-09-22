@@ -9,6 +9,8 @@ height: 100vh}
 .A{ grid-area:"A";background-color: red; display: flex; justify-content: center; align-items: center;color: white;}
 .B{grid-area: "B"; background-color: blue;display: flex; justify-content: center; align-items: center; color: white;}
 
+footer{background-color: greenyellow; font-size: 100px ; display: flex; justify-content: center;}
+
 
 @media only screen and ( max-width : 500px) { .container{ display: flex; flex-direction: column;}
 .A{height: 300px;}
