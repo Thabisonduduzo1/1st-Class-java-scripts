@@ -16,6 +16,6 @@ footer{background-color: greenyellow; font-size: 100px ; display: flex; justify-
 .A{height: 300px;}
 .B{height: 300px }
 p{font-size: larger;}
-footer{font-size: footer;}
+footer{font-size: 50px;}
     
 }
