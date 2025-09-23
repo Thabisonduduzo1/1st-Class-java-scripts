@@ -71,7 +71,7 @@ const otpGeneration = Math.ceil( Math.random() * 10000)
 const requestOTP = parseInt(prompt(`please enter the OTP provided -  ${otpGeneration}`))
 console.log(otpGeneration)
 const otpCheck = requestOTP === otpGeneration? alert("Successfully Authenticated") : alert("Unsuccessfull")
-
+console.log(otpCheck)
    
 
 
