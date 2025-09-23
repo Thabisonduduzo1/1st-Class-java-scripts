@@ -24,12 +24,55 @@ console.log( matric && application );  //and
 
 console.log(matric|| application);      //or
 
-console.log(!matric)            //not
+console.log(!matric);            //not
 
 
 //arrithmetic
 
-let a =4
-let b = 5
+let a =4;
+let b = 5;
 
-console.log( a+b)
+console.log( a+b);
+
+// Template literals
+const naam = "Thabiso";
+const myCar =`${naam} stays is Taboti. ${naam} does not work. ${naam} studies fullstack dev.`;
+console.log(myCar);
+
+
+//Prompt and Alert
+
+//const username = prompt("Please enter your username");
+//console.log(username);
+//alert(username);
+
+// String and number conversion
+
+const year = "2025";
+const newYear = parseInt(year);
+console.log(newYear);
+
+//note prompts only capture values as string
+//const firstYear = parseInt(prompt("enter the year of start"));
+//console.log(firstYear);
+//alert(firstYear);
+
+
+//Testing
+
+//const address = parseInt(prompt("please enter your addess number"))
+//const addressCheck =  address>15? "Enter" : "Dont Enter"
+//console.log(addressCheck)
+//alert(addressCheck)
+
+
+//OTP Example
+const otpGeneration = Math.ceil( Math.random() * 10000)
+const requestOTP = parseInt(prompt(`please enter the OTP provided -  ${otpGeneration}`))
+console.log(otpGeneration)
+const otpCheck = requestOTP === otpGeneration? alert("Successfully Authenticated") : alert("Unsuccessfull")
+
+   
+
+
+
